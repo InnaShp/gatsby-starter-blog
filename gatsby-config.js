@@ -56,6 +56,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-decap-cms`,
+      options: {
+        enableIdentityWidget: true,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
