@@ -9,7 +9,8 @@ collections:
   - name: "blog"
     preview: false
     label: "Blog"
-    folder: "content/blog/hello-world, content/blog/my-second-post, content/blog/new-beginnings"
+    label_singular: "Post"
+    folder: "content/blog"
     create: true
     slug: "{{slug}}"
     fields:
