@@ -313,6 +313,13 @@ a:focus {
   margin: var(--spacing-0);
 }
 
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
